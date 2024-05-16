@@ -22,7 +22,8 @@ function Post({ post, action }) {
           src={post.image}
           loader={imageLoader}
           alt={post.title}
-          fill
+          width={200}
+          height={120}
         />
       </div>
       <div className="post-content">
